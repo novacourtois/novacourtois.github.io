@@ -21,8 +21,8 @@ Building this out was pretty tough from a technical standpoint. Having to talk t
 Populating the select options correctly was pretty neat!
 
 ```html
-<option class="form-control" ng-repeat="station in stations | orderBy: ['name.length','name']" value="{{station.name}}" 
-   ng-if="station.match == match.match.id || !station.id">
+<option class="form-control" ng-if="station.match == match.match.id || !station.id"
+	ng-repeat="station in stations | orderBy: ['name.length','name']" value="{% raw %}{{station.name}}{% endraw %}">
    	{% raw %}{{station.name}}{% endraw %}
 </option>
 ```
