@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="header">
+  <h1>{{ site.name }}</h1>
+  <ul>
+    {% for item in site.data.navigation %}
+    <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="portfolio">
+  <h1>Links:</h1>
+  <ul>
+    {% for websites in site.data.websites %}
+    <li>
+      <a href="{{ websites.url }}">{{ websites.url }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="blog">
+  <h1>Blog Posts:</h1>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="updates">
+  <h1>Currenty Working on:</h1>
+  <ul>
+    <li>
+      <a href="http://github.com/novacourtois/challongeTO">
+        ChallongeTO - because tournaments should run smoothly.
+      </a>
+    </li>
+    <li>
+      <a href="http://www.meleelibrary.com/">
+        Becoming a better Ice Climber / Sheik main in SSBM.
+      </a>
+    </li>
+  </ul>
+</div>
