@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Creating a Smart Station Manager
-tag: 🍞
 ---
 
 # What's a Station Manager?
