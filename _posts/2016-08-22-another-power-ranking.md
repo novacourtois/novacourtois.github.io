@@ -8,6 +8,7 @@ title: Another Power Ranking
 Power Ranking systems go hand-in-hand with competitive (e)sports. [SkillKeeper](https://github.com/SugoiFactory/SkillKeeper) is used often in the Smash community because it integrates with [Challonge](https://challonge.com), but updating results takes some time. 
 
 The general process goes something like:
+
 * Adding a new tournament link
 * Manually handling player aliases
 * Running the program
@@ -33,6 +34,7 @@ The front-end will be done with Angular Material + SASS. There probably won't be
 All the excitement will be done on the back-end. Regions will be able to select their ranking algorithm (ELO / TrueSkill), and sit back after some initial set-up. 
 
 Caveats:
+
 * Aliases have to be dealt with manually (just once).
 * Automation requires either the use of their Challonge account's api key, or manually entering a url (just one click).
 
