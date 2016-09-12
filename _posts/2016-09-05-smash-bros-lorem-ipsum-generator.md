@@ -25,4 +25,4 @@ React might get added since I plan to add filtering options and it would be a go
 
 # Conclusion
 
-Check it out the project [here](https://smashipsum.herokuapp.com) and the code on [GitHub](https://github.com/disregardingstandards/smashipsum).
+Check it out the project [here](https://smashipsum.herokuapp.com) and the code on [GitHub](https://github.com/novacourtois/smashipsum).

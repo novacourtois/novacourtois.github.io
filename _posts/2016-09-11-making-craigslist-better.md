@@ -23,4 +23,4 @@ As far as bugs go, there was some issue with counting how many new posts there w
 
 # Conclusion
 
-Check it out the project [here](https://smashipsum.herokuapp.com) and the code on [GitHub](https://github.com/disregardingstandards/smashipsum).
+Check it out the project [here](https://lastvisited.herokuapp.com) and the code on [GitHub](https://github.com/novacourtois/craigslist-last-visited).
