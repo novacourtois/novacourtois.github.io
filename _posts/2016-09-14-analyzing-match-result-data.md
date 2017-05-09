@@ -1,9 +1,20 @@
 ---
 layout: post
-title: Making CraigsList Better
+title: Analyzing Match Result Data
 ---
 
-A couple of years ago, I made a Chrome Extension that extends CraigsList's functionality.
+How is anybody supposed to get better at something, specially Super Smash Bros Melee - arguably the most technically demanding fighting game ever, without the occasional shut-up-and-look-at-the-data realization that an outside, unbiased perspective can help you improve your performance?
+
+# The Issue
+
+Unfortunately, the best game ever was released too early. Nobody - not even the game's developers - were aware of so many unintentional glitches and abusable game mechanics that would breed a competitive scene of dedicated button-pushers. 
+
+Being run on a Nintendo GameCube, SSBM doesn't have any (usable) statistics or data analysis that would help foster and improve a competitive gamer's level. 
+
+
+
+<!-- 
+A couple of years ago, I made a Chrome Extesion that extends CraigsList's functionality.
 
 I decided to update it to remove a bunch of external dependencies, and make a nice landing page for the app as well. 
 
@@ -24,3 +35,4 @@ As far as bugs go, there was some issue with counting how many new posts there w
 # Conclusion
 
 Check it out the project [here](https://lastvisited.herokuapp.com) and the code on [GitHub](https://github.com/novacourtois/craigslist-last-visited).
+ -->
