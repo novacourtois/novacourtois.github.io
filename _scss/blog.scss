@@ -1,0 +1,30 @@
+.posts {
+  text-align: left;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  width: 800px;
+    max-width: calc(100% - 2rem);
+  
+  .post-link {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .post-title {
+      word-spacing: -.2em;
+      font-size: 3.4em;
+    }
+
+    .post-date {
+      flex: 0 0 auto;
+      font-weight: normal;
+      font-size: 1.2em;
+    }
+  }
+}
+
+article.post {
+  @include wrapper();
+}

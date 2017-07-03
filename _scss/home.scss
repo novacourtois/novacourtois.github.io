@@ -1,0 +1,23 @@
+.home  {
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  margin: -5rem 1rem 0 1rem;
+  font-size: 3.4em;
+  line-height: 1em;
+
+  p {
+    display: inline-table;
+    margin: 0;
+  }
+
+  span {
+    color: $color-primary;
+    font-family: $font-title;
+    &::-moz-selection { color: $color-dark; }
+    &::selection { color: $color-dark; }
+
+  }
+}

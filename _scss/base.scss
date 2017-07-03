@@ -1,0 +1,60 @@
+html, body {
+  cursor: crosshair;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: $font-size;
+  font-weight: 100;
+  font-family: $font-body;
+  color: $color-dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin-top: -5em;
+}
+
+@mixin transition($time) {
+  transition: all $time ease-in-out;
+  -moz-transition: all $time ease-in-out;
+  -webkit-transition: all $time ease-in-out;
+}
+
+@mixin wrapper() {
+  display: inline-block;
+  text-align: left;
+  margin: 5em 1rem 0 1rem;
+  width: 800px;
+  max-width: calc(100% - 2rem);
+}
+
+a, a:visited {
+  @include transition($time-norm);
+  color: $color-dark;
+  text-decoration-color: $color-primary;
+  text-decoration-skip: ink;
+
+  &:hover {
+    text-decoration-color: $color-dark;
+  }
+}
+
+h1 {
+  font-family: $font-title;
+  font-weight: 100;
+}
+
+.page {
+  margin-top: 5em;
+}
+
+.content {
+  text-align: center;
+  height: 100%;
+  margin-top: 5em;
+}
+
+::-moz-selection { background: $color-primary; }
+::selection { background: $color-primary; }

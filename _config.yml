@@ -1,23 +1,24 @@
-# Blog settings
-permalink: /blog/:title
+title: Nova Skye Courtois
+email: novacourtois@gmail.com
+description: "I make things. I try not to make things worse."
+pronouns: "My pronouns are:"
+p1: "they"
+p2: "them"
+baseurl: ""
+url: "http://novacourtois.github.io/"
+google_analytics: UA-100887551-2
 
-# My variables
-name: Nova Courtois
-description: Tech and Thoughts
-google_verification: null
+include: ['_pages']
+permalink: /:title/
 
-# File management
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
-
-# Sass
-sass:
-  style: :compressed
-  sass_dir: _sass
-
-# Markdown
+# Build settings
 markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  hard_wrap: true
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  sass_dir: _scss
+  style: :compressed
