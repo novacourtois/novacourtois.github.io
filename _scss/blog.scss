@@ -1,32 +1,13 @@
 .posts {
-  text-align: left;
-  display: inline-flex;
-  flex-direction: column;
-  margin: 0 1rem;
-  width: 800px;
-    max-width: calc(100% - 2rem);
-  
+  @include wrapper();
+
   .post-link {
     margin: 0;
-    display: inline-flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
 
     .post-title {
       word-spacing: -.2em;
       font-size: 3.4em;
-    }
-
-    .post-date {
-      flex: 0 0 auto;
-      font-weight: normal;
-      font-size: 1.2em;
-      -webkit-transform: rotate(-90deg);
-      -moz-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      -o-transform: rotate(-90deg);
-      transform: rotate(-90deg);
+      display: inline-block;
     }
   }
 }
